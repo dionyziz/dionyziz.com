@@ -1,0 +1,13 @@
+@media (max-width: 900px) {
+    img.background {
+        display: none;
+    }
+    section {
+        position: static;
+        width: 100%;
+        height: auto;
+    }
+    .credits-info {
+        display: none;
+    }
+}

@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.44;
+}
+ul {
+    margin: 15px 0 15px 160px;
+    padding: 0;
+    list-style: none;
+}
+ul li img {
+    float: left;
+    padding: 10px 15px;
+}
+ul li img {
+    height: 32px;
+    position: relative;
+}
+ul li a {
+    position: relative;
+    top: 0;
+    transition: top 0.2s;
+}
+ul li a:hover {
+    top: -5px;
+}
+ul li a:hover img {
+    padding-bottom: 15px;
+}
+ul li img.zoom {
+    top: -7px;
+    height: 47px;
+    padding: 10px 8px;
+}
+a, a:link, a:visited, a:hover {
+    color: #4499dd;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+h1 {
+    font-weight: normal;
+    margin: 0 0 0 160px;
+    padding: 0 13px;
+}
+img.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+section {
+    position: fixed;
+    left: 50%;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    overflow: auto;
+    background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+    box-shadow: 0 0 10px 0px black;
+}
+section div {
+    padding: 20px;
+    color: #333;
+    font-weight: 400;
+}
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 200px;
+    float: left;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 20px -5px black;
+}
+.avatar:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s;
+}
+.card {
+    overflow: auto;
+    left: -20px;
+    position: relative;
+}
+strong {
+    color: #e8701b;
+}
+.credits-info {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin: 10px;
+    padding: 5px;
+    width: 11px;
+    height: 11px;
+    color: black;
+    z-index: 1;
+    font-family: "Times New Roman", serif;
+    border-radius: 100px;
+    background-color: rgba(150, 150, 150, 0.4);
+    cursor: default;
+    transition: background-color 1s;
+}
+.credits-info span {
+    position: relative;
+    top: -6px;
+    left: 3px;
+}
+.credits-info:hover {
+    width: 500px;
+    height: auto;
+    border-radius: 3px;
+    font-family: inherit;
+    color: white;
+    padding: 10px;
+    background-color: rgba(100, 100, 100, 0.8);
+    font-size: 80%;
+}
+.credits-info:hover span {
+    display: none;
+}
